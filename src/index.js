@@ -7,6 +7,8 @@ import reportWebVitals from './reportWebVitals';
 import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import { UserList } from './features/users/UserList';
+import { EditUser } from './features/users/EditUser';
+import { AddUser } from './features/users/AddUser';
 import { Layout } from './layout';
 
 const container = document.getElementById('root');
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
       {
         path:'',
         element: <UserList/>
+      },
+      {
+        path: 'edit/:userId',
+        element: <EditUser/>
+      },
+      {
+        path: 'add',
+        element: <AddUser/>
       }
     ]
   }
