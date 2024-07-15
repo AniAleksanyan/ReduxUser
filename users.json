@@ -1,0 +1,29 @@
+{
+    "users":[
+        {
+            "id":101,
+            "name" : "Tiko",
+            "sallary": 200000
+        },
+        {
+            "id":102,
+            "name" : "Marine",
+            "sallary": 400000
+        },
+        {
+            "id":103,
+            "name" : "Gor",
+            "sallary": 500000
+        },
+        {
+            "id":104,
+            "name" : "Ani",
+            "sallary": 600000
+        },
+        {
+            "id":105,
+            "name" : "Anna",
+            "sallary": 700000
+        }
+    ]
+}

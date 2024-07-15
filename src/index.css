@@ -1,0 +1,14 @@
+nav{
+  display: flex;
+  gap:30px;
+  background-color: black;
+  padding:20px;
+}
+nav a{
+  color:white
+}
+*{
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+}
